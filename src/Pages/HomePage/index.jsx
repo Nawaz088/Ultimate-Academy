@@ -24,7 +24,7 @@ const HomePage = () => {
       <footer className="footer">
         <div className="fullFooterSection">
           <div className="logosection">
-            <img src="https://s3-alpha-sig.figma.com/img/621b/2ab0/949c23b4ac884657bfd4f465224b184e?Expires=1701043200&Signature=EHlSd10SqjLSXRDA8NihLt3jAk-ESR-NKJS9GTboUhsfFj84lEqInLLArZx1SFtpfOkrZ2wYHM8PY42HqeQOu95bXxDuUDrepapIb5JcnTR0dhfVbFlYZdrRdM28z0r5kFr9e4V3SzETTz4S2CcvMue-G8eq8MFk6546nclHISqsxMqO2kIDRpC7oYYOygzGt8vLHt9K7kRK-vSAQfrw3NXpGxStNWHqgFHHDQfJMqfNxgrK2onexRv87a5UTcBTAj5Aw5Stk-fxKNG169rCHcjZems3Ld0zQe97wBOf~HewTnAidHRoTC~NkMwiv0P0dGWAxrBVGLUmMIQuEq42vA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="this is an image"/>
+            <img src={require('./logo.png')} alt="this is an image"/>
             <h3>Ultimate Academy</h3>
             <p>Empowering minds, shaping futures  Your journey to tech excellence starts here.</p>
           </div>

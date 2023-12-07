@@ -35,14 +35,14 @@
     width: 207px;
     height: 60px;
     padding: 10px;
-    margin-top: 58px;
-    color: #fdfdfd;
+    margin-top: 20vh;
+    color: #212121;
     justify-content: center;
     align-items: center;
     gap: 10px;
     flex-shrink: 0;
     border-radius: 15px;
-    background: #212121;
+    background: #47E439;
 }
 .image {
   display: flex;
@@ -107,7 +107,8 @@
         align-items: center;
         height: 100%;
         width: 100%;
-        font-size: 7vw;
+        font-size: 3vh;
+        text-align: center;
         /* margin-left: 10px; */
     }
 
@@ -115,7 +116,7 @@
         font-size: 4vw;
     }
     .content button {
-        margin-top: 1vw;
+        margin-top: 1vh;
     }
     .image {
         display: none;
@@ -139,7 +140,7 @@
         /* align-items: center; */
     }
     .featureCourses {
-        width: 50vw;
+        width: 90vw;
     }
     
     
