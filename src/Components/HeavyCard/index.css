@@ -1,0 +1,94 @@
+.wraper {
+    display: flex;
+    flex-direction: column;
+    width: 357px;
+    height: 414px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 122px;
+}
+
+.Coursecontent {
+    margin-top: 57px;
+    color: #FDFDFD;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27.645px; /* 55.29% */
+}
+
+.Coursecontent p {
+    color: #D0C8C8;
+    margin-top: 16px;
+    font-family: Poppins;
+    font-size: 14.217px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.116px; /* 155.556% */
+}
+
+.Coursebuttons {
+    display: inline-flex;
+    align-items: center;
+    /* margin-top: 16px; */
+    /* gap: 17px; */
+    justify-content: space-between;
+}
+
+
+.Coursebuttons button {
+    width: 93.204px;
+    height: 47.392px;
+    flex-shrink: 0;
+    border-radius: 7.899px;
+    border: 1px solid #47E439;
+    background: #47E439;
+    font-weight: 700;
+}
+
+.Coursebuttons p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 17.377px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19.747px; /* 113.636% */
+}
+
+.Coursebuttons Link {
+    text-decoration: none;
+    background-color: transparent;
+}
+.Coursebuttons a {
+    color: #47E439;
+    font-family: Poppins;
+    font-size: 17.377px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19.747px; /* 113.636% */
+}
+
+@media (max-width: 600px) {
+    .wraper {
+        margin-left: 1vw;
+        width: 100%;
+        margin-right: 1vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Coursebuttons {
+        display: flex;
+        width: 50vw;
+        gap: 3vw;
+    }
+
+    .Coursecontent {
+        margin-left: 10vw;
+    }
+
+}

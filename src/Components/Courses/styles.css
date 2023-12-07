@@ -1,0 +1,9 @@
+.container{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.firstRow {
+    flex-direction: column;
+    justify-content: space-between;
+}

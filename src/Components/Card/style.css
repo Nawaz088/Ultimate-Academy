@@ -1,0 +1,78 @@
+.CardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height: 522.888px;
+    flex-shrink: 0;
+    border-radius: 23.696px;
+    border: 2.37px solid #334456;
+    background: #FDFDFD;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.CardContainer:hover {
+    box-shadow: 3.9493px 3.9493px 0px 0px #000;
+}
+
+.childImage {
+    width: 350.698px;
+    height: 179.298px;
+    flex-shrink: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 0px 0px #767474;
+}
+
+.CardContainer {
+    margin-top: 10px;
+}
+.Cardcontent h3 {
+    width: 349.908px;
+    height: 62.399px;
+    margin-top: 42px;
+    flex-shrink: 0;
+    color: #212121;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 19.747px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27.645px; /* 140% */
+}
+
+.Cardcontent p {
+    width: 354.647px;
+    color: var(--paragraph-color, #6F6F6F);
+    margin-top: 30px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14.217px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.116px; /* 155.556% */
+}
+
+.CardContainer button    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 93.204px;
+    height: 47.392px;
+    flex-shrink: 0;
+    border-radius: 7.899px;
+    border: 2.37px solid #212121;
+    background: #212121;
+}
+
+.CardContainer button {
+    color: #FDFDFD;
+    font-family: Inter;
+    font-size: 17.377px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19.747px; /* 113.636% */
+}

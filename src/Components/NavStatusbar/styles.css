@@ -1,0 +1,12 @@
+.ContainerWapper {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 15vh;
+    margin-top: 10vh;
+    margin-left: 6vw;
+    color: azure;
+    gap: 0.8rem;
+    font-size: 1.25rem;
+    /* background-color: blueviolet; */
+}

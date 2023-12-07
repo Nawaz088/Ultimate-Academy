@@ -1,0 +1,212 @@
+ .roadmap_main{
+    width: 100%;
+    height: auto;
+}
+
+.roadmap_child1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+}
+
+.roadmap_child1 h2 {
+    font-size: 3.12rem;
+    font-weight: 600;
+}
+.roadmap_child1 p {
+    width: 70%;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.roadmap_child2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: beige; */
+}
+
+.roadmap_child2 img {
+    height: 30vw;
+    object-fit: contain;
+    aspect-ratio: 3/2rem;
+    margin-top: 5px;
+}
+
+#roadmap_id1 {
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-style: normal;
+    line-height: normal;
+    gap: 2vw;
+    object-fit: contain;
+    margin-left: 40vw;
+}
+#roadmap_id2 {
+    display: flex;
+    justify-content: center;
+    align-content: end;
+    font-family: Poppins;
+    font-style: normal;
+    line-height: normal;
+    /* gap: 2vw; */
+    object-fit: contain;
+    /* width: 0%; */
+    height: 50%;
+    margin-right: 47vw;
+    margin-left: 40px;
+}
+
+.roadmap_content_left {
+    text-align: right;
+    gap: 10px;
+}
+
+.roadmap_content_right {
+    text-align: left;
+}
+.roadmap_content_left h1{
+    margin: 0;
+    padding: 0;
+    color: #47E439;
+    font-size: 1.625rem;
+    font-weight: 600;
+    margin-right: 30px;
+}
+.roadmap_child2_rightchild p {
+    width: 90%;
+    color: #FFF;
+    font-size: 1.375rem; 
+    font-weight: 400; 
+    margin-left: 10px;
+}
+.roadmap_child2_rightchild h1{
+    margin: 0;
+    padding: 0;
+    color: #47E439;
+    font-size: 1.625rem;
+    font-weight: 600;
+}
+.roadmap_child2_leftchild {
+    text-align: right;
+}
+.roadmap_child2_leftchild p {
+    width: 90%;
+    color: #FFF;
+    font-size: 1.375rem; 
+    font-weight: 400; 
+    margin-left: 10px;
+}
+.roadmap_child2_leftchild h1{
+    margin: 0;
+    padding: 0;
+    color: #47E439;
+    font-size: 1.625rem;
+    font-weight: 600;
+}
+.roadmap_content_right p {
+    width: 70%;
+    color: #FFF;
+    font-size: 1.375rem; 
+    font-weight: 400; 
+}
+.roadmap_green_dot {
+    display: flex;
+    justify-content: center;
+    margin-left: 38vw;
+}
+.roadmap_green_dot img {
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    flex-shrink: 0;
+}
+
+.roadmap_child2_main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 10vw; */
+}
+
+.roadmap_child2_leftchild {
+    display: flex;
+    flex-direction: column;
+    margin-top: 19vh;
+    gap: 43vh;
+    width: 33.3vw;
+}
+.roadmap_child2_middlechild {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 5vh; */
+    width: 13.3vw;
+}
+.roadmap_child2_rightchild {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 40.5vh;
+    height: 1000px;
+    width: 33.3vw;
+}
+
+#roadmap_leftchild_content_container {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#roadmap_rightchild_content_container{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#roadmap_hidechild_content_container {
+    display: none;
+    visibility: hidden;
+    /* height: 0; */
+}
+
+@media (max-width: 600px) {
+    #roadmap_hidechild_content_container {
+        display: block;
+    }
+
+    .roadmap_child2_rightchild {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        /* gap: 40.5vh; */
+        /* height: 1000px; */
+        width: 33.3vw;
+    }
+
+    .roadmap_child2_leftchild {
+        display: none;
+        visibility: collapse;
+        height: 0;
+        width: 0;
+        gap: 0;
+    }
+}
